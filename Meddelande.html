@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+	<head>
+		
+		<meta charset="utf-8">
+		<Title> sidans namn </title>
+		<link rel="stylesheet" type="text/css" href="stil.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial- scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="script.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+        <div id='cssmenu'>
+<ul>
+   <li id="start" class='active'><a href='index.html'></a></li>
+   <li><a href='Boka.html'>Boka</a>
+      <ul>
+         <li><a href='bokaRum.html'>Rum</a>
+         </li>
+         <li><a href='bokaLokal.html'>Lokal</a>
+         </li>
+      </ul>
+   </li>
+   <li><a href='Hitta.html'>Hitta</a></li>
+   <li><a href='Kontakta.html'>Kontakta</a>
+       <ul>
+         <li class='active'><a href='Meddelande.html'>Meddelande</a>
+         </li>
+        </ul>
+    </li>
+</ul>
+</div>
+        <h2>Skicka ett meddelande!</h2>
+    <form action="action_page.php">
+        <fieldset>
+            Ämne:<br>
+            <input type="text" name="Ämne">
+            <br>
+            Meddelande:<br>
+            <textarea name="Meddelande"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+        
+    <footer> 
+    <h3>Kontakt information:</h3> 
+        <ul id="kontakt">
+            <li> Telefonnummer: 070-holyland</li>
+            <li> Email: Conquered@Jerusalem.Holy</li>
+            <li> Adress: The Holy Land</li>
+         </ul>
+    </footer>
+    </body>
+</html>
